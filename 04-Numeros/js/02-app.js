@@ -7,7 +7,7 @@ let resultado;
 //suma
 resultado= numero1 + numero2;
 //resta
-resultado= numero1 * numero2;
+resultado= numero1 - numero2;
 //mult
 resultado= numero1 * numero2;
 //div
