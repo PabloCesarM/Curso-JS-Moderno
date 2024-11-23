@@ -1,3 +1,4 @@
+//undefined
 let numero;
 
 console.log(numero);
