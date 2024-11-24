@@ -4,5 +4,9 @@ const producto = {
     disponible: true
 }
 
-const nombreProducto = 'Monitor';
-nombreProducto = 'Tablet';
+producto.disponible = false;
+
+//eliminar propiedad precio
+delete producto.precio;
+
+console.log(producto);

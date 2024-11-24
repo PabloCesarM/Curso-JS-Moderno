@@ -13,6 +13,10 @@ const producto = {
     }
 }
 
+//al destrucurar objetos no se puede poner el nombre del "objeto.", 
+//se debe poner "objeto: {la propiedad}"
+//ejemplo: NO SE PUEDE PONER "informacion.fabricante"
+//ejemplo:  "informacion: {fabricante}"
 const {nombre, informacion ,informacion: {fabricacion, fabricacion: {pais}}} = producto
 
 console.log(nombre);
