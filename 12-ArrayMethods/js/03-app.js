@@ -1,4 +1,4 @@
-// FUBNCION REDUCE
+// FUNCION REDUCE
 
 const carrito = [
     { nombre: 'Monitor 27 Pulgadas', precio: 500 },
@@ -17,5 +17,5 @@ console.log(total);
 // REDUCCE
 let resultado = carrito.reduce( (total, producto) => {
     total + producto.precio, 0;
-} );
+});
 console.log(resultado);
